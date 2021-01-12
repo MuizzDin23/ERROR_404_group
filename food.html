@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+	<title>Pet Food | Pet Zone Malaysia</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+	
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" href="images/index/petzonecat.png" type="image/gif" sizes="16x16">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	</head>
+	<style>
+	
+body {
+	font-family: "Arvo";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Arvo";
+	font-weight: bold;
+}
+
+p {
+	font-family: "Arvo";
+}
+
+#email{
+	position: fixed;
+	padding: 10px;
+	bottom: 40px;
+	right: 20px;
+	font-size: 15px;
+	text-decoration: none;
+	border-radius: 30px;
+	border-style: solid;
+	background-color: #fff;
+	color:#4682b4;
+	transition: 0.3s ease 0.1s;
+}
+
+#email:hover{
+	background-color: #4682b4;
+	color:#fff;
+}
+
+.w3-theme {
+color:#1a237e;
+background-color:#c5e5f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+	</style>
+	<body>
+	
+	<header class="w3-bar w3-theme">
+		<a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-padding-16"><img src="images/index/pzlandscape_wstransparent.png" width="100px"</a>
+		
+		<a href="contact.html" class="w3-bar-item w3-button w3-right w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>Contact Us</b></a>
+		
+		<a href="media.html" class="w3-bar-item w3-button w3-right w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>Media</b></a>
+		
+		<a href="petscare.html" class="w3-bar-item w3-button w3-right w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>Pet's Care</b></a>
+
+		<a href="services.html" class="w3-bar-item w3-button w3-right w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>Services</b></a>
+		
+		<div class="w3-dropdown-hover w3-right w3-hover-none">
+			<button class="w3-button w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>Product</b></button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				
+					<a href="food.html" class="w3-bar-item w3-button w3-hover-none">Food</a>
+					<a href="accessories.html" class="w3-bar-item w3-button w3-hover-none">Accessories</a>
+					<a href="toys.html" class="w3-bar-item w3-button w3-hover-none">Toys</a>
+					<a href="grooming.html" class="w3-bar-item w3-button w3-hover-none">Grooming</a>
+					<a href="supplement.html" class="w3-bar-item w3-button w3-hover-none">Pet Supplement & Care</a>
+					<a href="cages.html" class="w3-bar-item w3-button w3-hover-none">Cages</a>
+					
+				</div>
+		</div>
+		
+		<a href="about.html" class="w3-bar-item w3-button w3-right w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>About</b></a>
+		
+		<a href="index.html" class="w3-bar-item w3-button w3-right w3-hover-none w3-padding-32 w3-hide-small w3-text-indigo"><b>Home</b></a>
+		
+		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-none w3-hide-large w3-hide-medium w3-theme w3-padding-32" onclick="myFunction()">&#9776;</a>
+	</header>
+	
+	<div id="demo" class="w3-bar-block w3-theme w3-hide w3-hide-large w3-hide-medium">
+		<a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
+		<a href="about.html" class="w3-bar-item w3-button"><b>About</b></a>
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button"><b>Product</b><i class="fa fa-caret-down"></i></button>
+				<div class="w3-dropdown-content w3-bar-block">
+					<a href="food.html" class="w3-bar-item w3-button w3-mobile">Food</a>
+					<a href="accessories.html" class="w3-bar-item w3-button w3-mobile">Accessories</a>
+					<a href="toys.html" class="w3-bar-item w3-button w3-mobile">Toys</a>
+					<a href="grooming.html" class="w3-bar-item w3-button w3-mobile">Grooming</a>
+					<a href="supplement.html" class="w3-bar-item w3-button w3-mobile">Pet Supplement & Care</a>
+					<a href="cages.html" class="w3-bar-item w3-button w3-mobile">Cages</a>
+				</div>
+		</div>
+		<a href="services.html" class="w3-bar-item w3-button"><b>Services</b></a>
+		<a href="petscare.html" class="w3-bar-item w3-button"><b>Pet's Care</b></a>
+		<a href="media.html" class="w3-bar-item w3-button"><b>Media</b></a>
+		<a href="contact.html" class="w3-bar-item w3-button"><b>Contact Us</b></a>
+	</div>
+	
+	<div class="w3-container" style="text-align:center"> 
+		<h1 style="color:steelblue">Animal Food</h1>
+		<br>
+	</div>
+	
+	<div class="container" style="text-align:center">
+	
+		<h2>Cat Food</h2>
+		
+	<div class="row" style="font-family:Arvo, serif;text-align:center;">
+	
+		<div class="column">
+			<h2 style="font-size:20px">Friskies</h2>
+				<div class="card">
+					<img src="images/food/cat.jpg" alt="friskies" style="width:150px">
+				<h1 style="font-size:20px">Friskies Adult Cat Surfin' Favourites</h1>
+					<p class="price">RM 10.99</p>
+					<p>1.4kg + 200g</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">Royal Canin</h2>
+				<div class="card">
+					<img src="images/food/cat_2.jpg" alt="royal_canin" style="width:150px">
+				<h1 style="font-size:20px">Royal Canin Feline Senior AGEING 12+</h1>
+					<p class="price">RM 63.00</p>
+					<p>2.0kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">Whiskas</h2>
+				<div class="card">
+					<img src="images/food/cat_3.jpg" alt="whiskas" style="width:150px">
+				<h1 style="font-size:20px">Whiskas Cat Dry Food Adult Mackerel</h1>
+					<p class="price">RM 32.99</p>
+					<p>3.0kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+	</div>
+	
+	</div>
+	
+	
+	<br>
+	
+	<div class="container" style="text-align:center">
+	
+		<h2>Dog Food</h2>
+		
+	<div class="row" style="font-family:Arvo, serif;text-align:center;">
+	
+		<div class="column">
+			<h2 style="font-size:20px">Pedigree</h2>
+				<div class="card">
+					<img src="images/food/dog.jpg" alt="pedigree" style="width:150px">
+				<h1 style="font-size:20px">Pedigree Dog Dry Food Adult Chicken & Vegetable Flavour</h1>
+					<p class="price">RM 75.00</p>
+					<p>10kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">SmartHeart</h2>
+				<div class="card">
+					<img src="images/food/dog_2.jpg" alt="smartheart" style="width:150px">
+				<h1 style="font-size:20px">SmartHeart Dog Food Roast Beef Flavour</h1>
+					<p class="price">RM 100.00</p>
+					<p>20kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">Royal Canin</h2>
+				<div class="card">
+					<img src="images/food/dog_3.jpg" alt="royal_canin" style="width:140px">
+				<h1 style="font-size:20px">Royal Canin Maxi Adult</h1>
+					<p class="price">RM 105.10</p>
+					<p>15kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+	</div>
+	
+	<br>
+	
+	</div>
+	
+	<br>
+	
+	<div class="container" style="text-align:center">
+	
+		<h2>Bird Food</h2>
+		
+	<div class="row" style="font-family:Arvo, serif;text-align:center;">
+	
+		<div class="column">
+			<h2 style="font-size:20px">Tweet</h2>
+				<div class="card">
+					<img src="images/food/bird.jpg" alt="tweet" style="width:200px">
+				<h1 style="font-size:20px">Tweet Tweet Happy Bird Food</h1>
+					<p class="price">RM 16.90</p>
+					<p>650g</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">SmartHeart</h2>
+				<div class="card">
+					<img src="images/food/bird_2.jpg" alt="smartheart" style="width:170px">
+				<h1 style="font-size:20px">SmartHeart Cockatiel & Lovebird</h1>
+					<p class="price">RM 10.00</p>
+					<p>1kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">Varsele Laga</h2>
+				<div class="card">
+					<img src="images/food/bird_3.jpg" alt="varsele_laga" style="width:140px">
+				<h1 style="font-size:20px">Versele Laga Big Parakeets Prestige</h1>
+					<p class="price">RM 11.95</p>
+					<p>1kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+	</div>
+	
+	</div>
+	
+	<div class="container" style="text-align:center">
+	
+		<h2>Hamster Food</h2>
+		
+	<div class="row" style="font-family:Arvo, serif;text-align:center;">
+	
+		<div class="column">
+			<h2 style="font-size:20px">Vitakraft</h2>
+				<div class="card">
+					<img src="images/food/hamster.jpg" alt="vitakraft" style="width:210px">
+				<h1 style="font-size:20px">Vitakraft Menu Hamster Food</h1>
+					<p class="price">RM 16.90</p>
+					<p>1kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">Tropifit</h2>
+				<div class="card">
+					<img src="images/food/hamster_2.jpg" alt="tropifit" style="width:140px">
+				<h1 style="font-size:20px">Tropifit Hamster Food</h1>
+					<p class="price">RM 17.50</p>
+					<p>500g</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+		<div class="column">
+			<h2 style="font-size:20px">Cunipic</h2>
+				<div class="card">
+					<img src="images/food/hamster_3.jpg" alt="cunipic" style="width:180px">
+				<h1 style="font-size:20px">Cunipic Complete Hamster Food</h1>
+					<p class="price">RM 22.80</p>
+					<p>800kg</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+		</div>
+		
+	</div>
+	
+	</div>
+
+	
+	
+	<a id="email" href="mailto:petzonemy@gmail.com"><b>Contact Us</b></a>
+	
+	<footer class="w3-center w3-theme w3-padding-32">
+		<h4>Copyright &copy; 2021 Pet Zone</h4>
+	</footer>
+	
+	
+<script>
+	function myFunction() {
+		var x = document.getElementById("demo");
+		if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		} else { 
+		x.className = x.className.replace(" w3-show", "");
+		}
+	}
+</script>
+	
+	</body>
+	
+</html>

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+body{
+  font-family: Arvo, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(images/contact/cat2.jpg);
+  background-size: cover;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  margin-top: 5px;
+  pointer-events: none;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 15px 3%;
+  background-color: #c5e5f2;
+}
+
+#navbar ul{
+  display: flex;
+}
+
+#navbar ul li a{
+  margin:15px;
+  color: #4682b4;
+  font-size: 16px;
+  transition: 0.2s ease 0.1s;
+}
+
+#navbar a:hover{
+  border-bottom: 3px solid #4682b4;
+  padding-bottom: 4px;
+}
+
+
+.wrapper-form{
+  float: right;
+  width: 85%;
+  max-width: 600px;
+  background:#fff;
+  margin-top: 68px;
+  margin-right: 160px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 40px #000;
+  opacity: 0.85; 
+}
+
+.wrapper-form h2{
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.wrapper-form .input_box{
+  margin-bottom: 10px;
+}
+
+.wrapper-form .input_box input[type="text"],
+.wrapper-form textarea{
+  border: 3px solid #e0e0e0;
+  width: 93%;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.wrapper-form textarea{
+  resize: none;
+  height: 100px;
+}
+
+.wrapper-form .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #c5e5f2;
+  color: #4682b4;
+  letter-spacing: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+#error{
+  margin-bottom: 20px;
+  background: #F75A5E;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.contact-option{
+  float: left;
+  width: 50%;
+  max-width: 450px;
+  background:#fff;
+  margin-top: 50px;
+  margin-left: 220px;
+  margin-bottom: 50px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 40px #000;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.contact-option .box{
+  padding: 3px 0;
+}
+
+.contact-option .box .icon{
+  position: relative;
+  display: flex;
+  min-width: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.contact-option .box .icon a{
+  color: #000;
+}
+
+.socmedicon i{
+  font-size: 35px;
+}
+
+.socmed{
+  margin:8px;
+}
+
+@media screen and (max-width: 480px){
+    .logo img{
+      width:35px; 
+    }
+
+    #navbar{
+      height: 15px;
+      padding: 3px 3%;
+    }
+
+    #navbar ul li a{
+      margin: 3px;
+      font-size: 7px;
+    }
+
+    .wrapper-form{
+    width: 85%;
+    max-width: 200px;
+    background:#fff;
+    margin-top: 28px;
+    margin-right: 100px;
+    padding: 10px 20px;
+    }
+
+    .wrapper-form h2{
+      margin-bottom: 5px;
+      font-size: 12px;
+    }
+
+    .wrapper-form .input_box{
+      margin-bottom: 5px;
+    }
+
+    .wrapper-form .input_box input[type="text"],
+    .wrapper-form textarea{
+      border: 3px solid #e0e0e0;
+      width: 86%;
+      padding: 5px;
+      font-size: 8px;
+    }
+
+    .wrapper-form textarea{
+      height: 50px;
+    }
+
+    .wrapper-form .btn input[type="submit"]{
+      margin-top: 7px;
+      padding: 4px;
+      font-size: 12px;
+    }
+
+    #error{
+      margin-bottom: 10px;
+      font-size: 8px;
+    }
+
+    .contact-option{
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding: 2px 8px;
+    }
+
+    .contact-option .box{
+      font-size: 9px;
+    }
+
+    .contact-option .box .icon{
+      font-size: 12px;
+    }
+
+    .socmedicon{
+      font-size: 12px;
+    }
+
+    .socmed{
+      margin:4px;
+    }

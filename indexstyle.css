@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+	font-family: Arvo, serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #c5e5f2;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo{
+	margin-top: 5px;
+	pointer-events: none;
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	padding: 15px 3%;
+	background-color: #c5e5f2;
+}
+
+#navbar ul{
+	display: flex;
+}
+
+#navbar ul li a{
+	margin:15px;
+	color: #4682b4;
+	font-size: 16px;
+	transition: 0.2s ease 0.1s;
+}
+
+#navbar a:hover{
+	border-bottom: 3px solid #4682b4;
+	padding-bottom: 4px;
+}
+
+#email{
+	position: fixed;
+	padding: 10px;
+	bottom: 40px;
+	right: 20px;
+	font-size: 15px;
+	text-decoration: none;
+	border-radius: 30px;
+	border-style: solid;
+	background-color: #fff;
+	color:#4682b4;
+	transition: 0.3s ease 0.1s;
+}
+
+#email:hover{
+	background-color: #4682b4;
+	color:#fff;
+}
+
+.container{
+	width: 93%;
+	margin: auto;
+	overflow: hidden; 
+}
+
+.intro img{
+	float: right;
+	width: 700px;
+	margin-top: 80px;
+	margin-bottom: 70px;
+	margin-right: 10px;
+}
+
+.sidebar1{
+	float:left;
+	margin-top: 155px;
+	margin-bottom: 70px;
+	margin-left: 60px;
+	width: 40%;
+	box-sizing: border-box;
+	padding: 30px;
+	font-family: Arvo;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#products{
+	left: 500px;
+	top: 25px;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 25px;
+	border-style: solid;
+	background-color: #fff;
+	color:#4682b4;
+	transition: 0.3s ease 0.1s;
+}
+
+#products:hover{
+	background-color: #4682b4;
+	color:#fff;
+}
+
+#services{
+	left: 500px;
+	top: 25px;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 25px;
+	border-style: solid;
+	background-color: #fff;
+	color:#4682b4;
+	transition: 0.3s ease 0.1s;
+}
+
+#services:hover{
+	background-color: #4682b4;
+	color:#fff;
+}
+
+#main-footer{
+	background:#c5e5f2;
+	color: #4682b4;
+	text-align: center;
+	padding: 0.5px;
+	margin-top: 0px;
+}
+
+@media screen and (max-width: 480px){
+	.logo img{
+		width:35px; 
+	}
+
+	#navbar{
+		height: 15px;
+		padding: 3px 3%;
+	}
+
+	#navbar ul li a{
+		margin: 3px;
+		font-size: 7px;
+	}
+
+	#email{
+		padding: 5px;
+		font-size: 5px;
+	}
+
+	.intro img{
+		width: 200px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		margin-right: 110px;
+	}
+
+	.sidebar1{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		margin-left: 40px;
+		width: 50%;
+		padding: 5px;
+		font-size: 10px;
+	}
+
+	#products{
+		left: 500px;
+		top: 25px;
+		padding: 10px;
+		font-size: 8px;
+	}
+
+	#services{
+		left: 500px;
+		top: 25px;
+		padding: 10px;
+		font-size: 8px;
+	}
